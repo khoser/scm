@@ -1,0 +1,18 @@
+all:
+  children:
+    imac:
+      hosts:
+        192.168.1.51:
+        192.168.1.151:
+    proxmox:
+      hosts:
+        192.168.1.200:
+    old_srv:
+      hosts:
+        msrvh:
+    virtualhosts:
+      hosts:
+        192.168.1.40:
+        mail.kter.ru:
+          ansible_user: centos
+        192.168.1.61:
